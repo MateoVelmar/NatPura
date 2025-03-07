@@ -1,0 +1,83 @@
+body {
+    font-size: 2em;
+    margin: 8%;
+}
+.logo{
+    width: 10px;
+    height: 10px;
+}
+ul {
+    background-color: #fdb3d5;
+    display: inline-block;
+
+}
+
+
+a {
+    color: #ffffff;
+}
+h1{
+    color: #fdb3d5;
+    text-align: center;
+}
+h4 {
+    color: #fdb3d5;
+}
+img {
+    width: 450px;
+    height: 500px;
+    margin: auto;
+    border-radius: 10%;
+}
+p {
+    text-align: justify;
+}
+.icono {
+    padding: 0.3em;
+    display: inline - block;
+    margin: auto;
+}
+.enlace {
+    width: 60px;
+    height: 60px;
+    box-shadow: 0.3em 0.3em 0.3em black;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-menu li {
+    display: inline;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.nav-menu a:hover {
+    color: #f89cc7;
+}
+
+.nav-menu2 {
+    list-style: none;
+}
+
+.nav-menu a:hover {
+    color: #f89cc7; /* Cambia el color al pasar el mouse */
+}
+
+.video-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente (opcional si hay más contenido) */
+    height: auto; /* Ajusta según sea necesario */
+    padding: 20px; /* Espaciado opcional */
+}
